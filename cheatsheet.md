@@ -44,7 +44,7 @@ Conditional: 'and' , 'or' , 'not'
 
 '+' can also be used to concatenate strings
 
-## Making deciscions
+## Making decisions
 
 ### If-statement
 
@@ -205,13 +205,45 @@ def name_of_method(self, 'arguments')
 
 ### Constructors
 
-C#:
+C#: (overloading is possible)
 
 public ClassName(arguments/or empty brackets){
     body of the constructor;
 }
 
-Python:
+Python: (overloading is not possible)
 
 def __init__(self, 'arguments'):
     initialization of the instance
+
+### Creating objects
+
+C#:
+
+ClassName objectName = new ClassName(arguments if needed);
+
+Python:
+
+obj = ClassName()
+
+### Assign or access variables
+
+C#:
+
+access_modifier data_type attributeName = initial_value;
+
+Python:
+
+self.__attributeName = 'value'
+
+### Returning values from methods
+
+C#:
+
+(in body of the method)
+return 'returnValue';
+
+Python:
+
+(in body of the method)
+return 'returnValue'
