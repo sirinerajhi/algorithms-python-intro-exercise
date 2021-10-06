@@ -25,21 +25,29 @@ print("text")
 C#:
 
 Convert.ToString(variable);
+
 Convert.ToInt32(variable);
+
 Convert.ToFloat(variable);
 
 Python:
 
 int(variable)
+
 str(variable)
+
 float(variable)
 
 ## Operators
 
 *C# == Python* for mathematical, compound, comparison and conditional operators:
+
 Math: '+' , '-' , '*' , '/' , '%' , '**' , '//'
+
 Compound: '+=' , '-=' , '*=' , '/=' , '%=' , '//=' , '**='
+
 Comparison: '==' , '!=' , '>' , '>=' , '<' , '<='
+
 Conditional: 'and' , 'or' , 'not'
 
 '+' can also be used to concatenate strings
@@ -51,13 +59,17 @@ Conditional: 'and' , 'or' , 'not'
 C#:
 
 if(condition) {
+
     code to execute if true;
+
 }
+
 code after the if-statement;
 
 Python:
 
 if condition:
+
     code to execute if true
 
 code after the if-statement
@@ -67,17 +79,25 @@ code after the if-statement
 C#:
 
 if(condition) {
+
     code to execute if true;
+
 } else {
+
     code to execute if false;
+
 }
+
 code after the if-statement;
 
 Python:
 
 if condition:
+
     code to execute if true
+
 else:
+
     code to execute if not true
 
 code after the if-else statement
@@ -87,14 +107,20 @@ code after the if-else statement
 C#:
 
 if(condition) {
+
     code to execute if true;
+
 } else if (condition){
+
     code to execute if else condition is true;
+
 } else if (condition){
+
     code to execute if else condition is true;
 } ... (add as many as needed)
 else {
     code to execute if all conditions return false;
+
 }
 
 code after the if-elif-else statement;
@@ -102,13 +128,21 @@ code after the if-elif-else statement;
 Python:
 
 if condition:
+
     code to execute if true
+
 elif condition:
+
     code to execute if elif condition is true
+
 elif condition:
+
     code to execute if elif condition is true
+
 ...(add as many as needed)
+
 else:
+
     code to execute if not true
 
 code after the if-statement
@@ -120,12 +154,15 @@ code after the if-statement
 C#:
 
 for(initialization ; condition ; increment) {
+
     body of the for loop;
+
 }
 
 Python:
 
 for varName in range(start,end,step-size):
+
     body of the for loop
 
 ### While loop
@@ -133,12 +170,14 @@ for varName in range(start,end,step-size):
 C#:
 
 while(condition){
+
     body of the while loop;
 }
 
 Python:
 
 while <'condition'>:
+
     body of the while loop
 
 ## Lists
@@ -148,11 +187,13 @@ while <'condition'>:
 C#:
 
 int[] numbers = {1,2,3,4,5};
+
 string[] names = {'Mark', 'Donna', 'Ella'};
 
 Python:
 
 numbers = [1, 2, 3, 4, 5]
+
 names = ['Mark', 'Donna', 'Ella']
 
 ### Iterating over a list
@@ -160,12 +201,15 @@ names = ['Mark', 'Donna', 'Ella']
 C#:
 
 foreach (var name in names) {
+
     code to be executed;
+
 }
 
 Python:
 
 for i in range(0,len(names)):
+
     code to be executed (e.g. print all elements)
 
 ### Adding items
@@ -195,8 +239,11 @@ class 'ClassName':
 C#:
 
 access_modifier static/not return_data_type NameOfTheMethod(arguments){
+
     body of the method;
+
     return if necessary;
+
 }
 
 Python:
@@ -208,12 +255,15 @@ def name_of_method(self, 'arguments')
 C#: (overloading is possible)
 
 public ClassName(arguments/or empty brackets){
+
     body of the constructor;
+
 }
 
 Python: (overloading is not possible)
 
 def __init__(self, 'arguments'):
+
     initialization of the instance
 
 ### Creating objects
@@ -241,9 +291,11 @@ self.__attributeName = 'value'
 C#:
 
 (in body of the method)
+
 return 'returnValue';
 
 Python:
 
 (in body of the method)
+
 return 'returnValue'
