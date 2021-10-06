@@ -62,12 +62,13 @@ C#:
         code to execute if true;
     }
 
-code after the if-statement;
+    code after the if-statement;
 
 Python:
 
     if condition:
         code to execute if true
+
     code after the if-statement
 
 ### If-else statement
@@ -89,6 +90,7 @@ Python:
         code to execute if true
     else:
         code to execute if not true
+
     code after the if-else statement
 
 ### If - elif - else statement
@@ -101,10 +103,13 @@ C#:
         code to execute if else condition is true;
     } else if (condition){
     code to execute if else condition is true;
-    } ... (add as many as needed)
+    } 
+    ... (add as many as needed)
+
     else {
         code to execute if all conditions return false;
     }
+
     code after the if-elif-else statement;
 
 Python:
@@ -115,7 +120,9 @@ Python:
         code to execute if elif condition is true
     elif condition:
         code to execute if elif condition is true
+
     ...(add as many as needed)
+
     else:
         code to execute if not true
     code after the if-statement
@@ -204,7 +211,7 @@ C#:
     access_modifier static/not return_data_type NameOfTheMethod(arguments){
         body of the method;
         return data if necessary;
-}
+    }
 
 Python:
 
