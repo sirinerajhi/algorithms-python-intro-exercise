@@ -4,51 +4,51 @@
 
 C#:
 
-int numberOfStudents = 17;
+    int numberOfStudents = 17;
 
 Python:
 
-numberOfStudents = 17
+    numberOfStudents = 17
 
 ## Output to terminal
 
 C#:
 
-Console.WriteLine("text");
+    Console.WriteLine("text");
 
 Python:
 
-print("text")
+    print("text")
 
 ## Casting variables
 
 C#:
 
-Convert.ToString(variable);
+    Convert.ToString(variable);
 
-Convert.ToInt32(variable);
+    Convert.ToInt32(variable);
 
-Convert.ToFloat(variable);
+    Convert.ToFloat(variable);
 
 Python:
 
-int(variable)
+    int(variable)
 
-str(variable)
+    str(variable)
 
-float(variable)
+    float(variable)
 
 ## Operators
 
 *C# == Python* for mathematical, compound, comparison and conditional operators:
 
-Math: '+' , '-' , '*' , '/' , '%' , '**' , '//'
+    Math: '+' , '-' , '*' , '/' , '%' , '**' , '//'
 
-Compound: '+=' , '-=' , '*=' , '/=' , '%=' , '//=' , '**='
+    Compound: '+=' , '-=' , '*=' , '/=' , '%=' , '//=' , '**='
 
-Comparison: '==' , '!=' , '>' , '>=' , '<' , '<='
+    Comparison: '==' , '!=' , '>' , '>=' , '<' , '<='
 
-Conditional: 'and' , 'or' , 'not'
+    Conditional: 'and' , 'or' , 'not'
 
 '+' can also be used to concatenate strings
 
@@ -58,11 +58,9 @@ Conditional: 'and' , 'or' , 'not'
 
 C#:
 
-if(condition) {
-
-    code to execute if true;
-
-}
+    if(condition) {
+        code to execute if true;
+    }
 
 code after the if-statement;
 
