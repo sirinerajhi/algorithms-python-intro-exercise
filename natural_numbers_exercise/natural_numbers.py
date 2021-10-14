@@ -1,7 +1,7 @@
 class NaturalNumbers:
 
     def divideSevenAndNine(self):
-        if (self % 7 == 0) and (self % 9 == 0):
+        if (self % 7 == 0) or (self % 9 == 0):
             return True
 
     def sum(self):
